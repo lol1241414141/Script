@@ -1,5 +1,5 @@
 local HatID = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = HatID.CreateLib("Just a baseplate By grey noob ", "BloodTheme")
+local Window = HatID.CreateLib("Nigga hatlist By grey noob ", "BloodTheme")
 
 local Tab = Window:NewTab("Info")
 local Section = Tab:NewSection("Idk")
@@ -59,4 +59,17 @@ Section:NewButton("Bacon r63", "Hot ass", function()
 end)
 Section:NewButton("Neko", "Face, hair only hat hub", function()
     setclipboard("-gh 13913452190 12659348931 15281425861 14124935972 16495408826 3806215779 5132802731 31151864 27345567 24826811 24826755 130182111863690 16451454810 6984544578")
+end)
+
+local Tab = Window:NewTab("Script hub")
+local Section = Tab:NewSection("XD")
+
+Section:NewButton("Hathub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/A1iNPhBV"))()
+    print("Clicked")
+end)
+
+Section:NewButton("SushiX", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X'),true))()
+    print("Clicked")
 end)
