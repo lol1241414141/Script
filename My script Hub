@@ -52,7 +52,8 @@ ScriptTab:AddButton({
 ScriptTab:AddButton({
 	Name = "FE ANIMETION",
 	Callback = function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/My%20script%20Hub')))()      		print("Execute Done")
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/My%20script%20Hub')))()      		
+		print("Execute Done")
   	end    
 })
 
@@ -96,6 +97,14 @@ SEXTab:AddButton({
 	Name = "SUS HUB",
 	Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/38Jra00x"))()
+      	print("Execute Done")
+  	end    
+})
+
+SEXTab:AddButton({
+	Name = "nigga Hatlist",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/Hatlist%20gui"))()
       	print("Execute Done")
   	end    
 })
