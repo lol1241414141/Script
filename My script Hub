@@ -16,7 +16,7 @@ local infoTab = Window:MakeTab({
 })
 
 local Section = infoTab:AddSection({
-	Name = "I made Script by skullman0569"
+	Name = "I made Script by Gray noob"
 })
 
 local Section = infoTab:AddSection({
