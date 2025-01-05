@@ -1,0 +1,65 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "Nigga Key system", HidePremium = false, SaveConfig = true, IntroEnabled = false})
+
+OrionLib:MakeNotification({
+	Name = "Logged in!",
+	Content = "You are logged in as "..Player.Name.."",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+_G.Key = "Fuckniggass"
+_G.KeyInput = "string"
+
+function MakeScriptHub()
+    print("EnteredCorrectKey")
+end
+
+function CorrectKeyNotification()
+    OrionLib:MakeNotification({
+        Name = "Correct Key!",
+        Content = "You have Entered the Correct Key!",
+        Image = "rbxassetid://4483345998",
+        Time = 5
+    })
+end
+
+function IncorrectKeyNotification()
+    OrionLib:MakeNotification({
+        Name = "InCorrect Key!",
+        Content = "You have Entered the InCorrect Key!",
+        Image = "rbxassetid://4483345998",
+        Time = 5
+    })
+end
+
+
+local Tab = Window:MakeTab({
+	Name = "Key",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "Enter Key",
+	Default = "Enter Key",
+	TextDisappear = true,
+	Callback = function(Value)
+		_G.KeyInput = Value
+        print(KeyInput)
+	end	  
+})
+
+Tab:AddButton({
+	Name = "Check Key",
+	Callback = function()
+      	if _G.KeyInput == _G.Key then
+        MakeScriptHub()
+        CorrectKeyNotification()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/My%20script%20Hub')))()
+        else
+            IncorrectKeyNotification()
+         end
+  	end    
+})
