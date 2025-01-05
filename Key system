@@ -94,7 +94,7 @@ GetKeyButton.Parent = frame
 --------------------------------------------------------------------------
 SubmitButton.MouseButton1Click:Connect(function()
     local KeySystem = KeySystem.Text
-    if KeySystem == "gtrqwbsfad" then   
+    if KeySystem == "DEERASS" then   
 screenGui:Destroy()
 
 --Your Script
