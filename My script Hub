@@ -50,6 +50,13 @@ ScriptTab:AddButton({
 })
 
 ScriptTab:AddButton({
+	Name = "FE ANIMETION",
+	Callback = function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/My%20script%20Hub')))()      		print("Execute Done")
+  	end    
+})
+
+ScriptTab:AddButton({
 	Name = "Sushi X",
 	Callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X'),true))()
