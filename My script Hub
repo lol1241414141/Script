@@ -1,10 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "👨🏿Nigga's Hub 1v👨🏿", HidePremium = false, IntroText = "👨🏿Nigga's hub👨🏿 By Gray noob", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Silly Cat's Hub 1.2v", HidePremium = false, IntroText = "Silly Cat's Hub By Gray noob", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
 	Name = "💀I made That my script💀",
-	Content = "Verson 1.0",
+	Content = "Verson 1.2",
 	Image = "rbxassetid://965496596",
 	Time = 10
 })
@@ -24,7 +24,29 @@ local Section = infoTab:AddSection({
 })
 
 local Section = infoTab:AddSection({
-	Name = "Version: 1.0"
+	Name = "Version: 1.2"
+})
+
+local FETab = Window:MakeTab({
+	Name = "FE script",
+	Icon = "rbxassetid://117288350350962",
+	PremiumOnly = false
+})
+
+FETab:AddButton({
+	Name = "Hathub",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/A1iNPhBV"))()
+      		print("Execute Done")
+  	end    
+})
+
+FETab:AddButton({
+	Name = "Sushi X",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X'),true))()
+      		print("Execute Done")
+  	end    
 })
 
 local ScriptTab = Window:MakeTab({
@@ -34,34 +56,27 @@ local ScriptTab = Window:MakeTab({
 })
 
 ScriptTab:AddButton({
-	Name = "Hathub",
-	Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/A1iNPhBV"))()
-      		print("Execute Done")
-  	end    
-})
-
-ScriptTab:AddButton({
 	Name = "NeverPatched Ultimate",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AlgariBot/lua/refs/heads/Lua-Script-Executor/notatimate.txt"))()
       		print("Execute Done")
   	end    
+}) 
+
+ScriptTab:AddButton({
+	Name = "Freaky animetion",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/ggggggggggg/refs/heads/main/ggggggggg"))()
+      		print("Execute Done")
+  	end    
 })
+
 
 ScriptTab:AddButton({
 	Name = "FE ANIMETION",
 	Callback = function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/My%20script%20Hub')))()      		
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt"))()      		
 		print("Execute Done")
-  	end    
-})
-
-ScriptTab:AddButton({
-	Name = "Sushi X",
-	Callback = function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X'),true))()
-      		print("Execute Done")
   	end    
 })
 
@@ -88,7 +103,7 @@ JerkoffTab:AddButton({
 })
 
 local SEXTab = Window:MakeTab({
-	Name = "SEX",
+	Name = "Hat",
 	Icon = "rbxassetid://965496596",
 	PremiumOnly = false
 })
@@ -102,9 +117,23 @@ SEXTab:AddButton({
 })
 
 SEXTab:AddButton({
-	Name = "nigga Hatlist",
+	Name = "Hatlist For Hat hub, SuShix",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/Hatlist%20gui"))()
+      	print("Execute Done")
+  	end    
+})
+
+local AdminTab = Window:MakeTab({
+	Name = "Admin hub",
+	Icon = "rbxassetid://965496596",
+	PremiumOnly = false
+})
+
+AdminTab:AddButton({
+	Name = "INF YE admin",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
       	print("Execute Done")
   	end    
 })
