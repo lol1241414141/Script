@@ -1,9 +1,9 @@
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
-local Window = OrionLib:MakeWindow({Name = "Silly Cat's Hub 2.5v (TEST)", HidePremium = false, IntroText = "Silly Cat's Hub By Gray noob", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Silly Cat's Hub 2v", HidePremium = false, IntroText = "Silly Cat's Hub By Gray noob", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
 	Name = "💀I made That my script💀",
-	Content = "Verson 2.5",
+	Content = "Verson 2.0",
 	Image = "rbxassetid://965496596",
 	Time = 4
 })
@@ -23,7 +23,7 @@ local Section = infoTab:AddSection({
 })
 
 local Section = infoTab:AddSection({
-	Name = "Version: 2.5"
+	Name = "Version: 1.2"
 })
 
 local FETab = Window:MakeTab({
@@ -48,7 +48,13 @@ FETab:AddButton({
   	end    
 })
 
-FETab:AddButton({
+local ScriptTab = Window:MakeTab({
+	Name = "Script Hub",
+	Icon = "rbxassetid://117288350350962",
+	PremiumOnly = false
+})
+
+ScriptTab:AddButton({
 	Name = "NeverPatched Ultimate",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AlgariBot/lua/refs/heads/Lua-Script-Executor/notatimate.txt"))()
@@ -56,7 +62,7 @@ FETab:AddButton({
   	end    
 }) 
 
-FETab:AddButton({
+ScriptTab:AddButton({
 	Name = "Freaky animetion",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/ggggggggggg/refs/heads/main/ggggggggg"))()
@@ -65,7 +71,7 @@ FETab:AddButton({
 })
 
 
-FETab:AddButton({
+ScriptTab:AddButton({
 	Name = "FE ANIMETION",
 	Callback = function()
 	loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt"))()      		
@@ -73,7 +79,13 @@ FETab:AddButton({
   	end    
 })
 
-FETab:AddButton({
+local JerkoffTab = Window:MakeTab({
+	Name = "Jerk off v2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+JerkoffTab:AddButton({
 	Name = "Jerk off r15",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/Jerk%20off%20r15'))()
@@ -81,7 +93,7 @@ FETab:AddButton({
   	end    
 })
 
-FETab:AddButton({
+JerkoffTab:AddButton({
 	Name = "Jerk off r6",
 	Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/Jerk%20off%20r6'))()
@@ -89,7 +101,13 @@ FETab:AddButton({
   	end    
 })
 
-FETab:AddButton({
+local SEXTab = Window:MakeTab({
+	Name = "Hat",
+	Icon = "rbxassetid://965496596",
+	PremiumOnly = false
+})
+
+SEXTab:AddButton({
 	Name = "SUS HUB",
 	Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/38Jra00x"))()
@@ -97,7 +115,7 @@ FETab:AddButton({
   	end    
 })
 
-FETab:AddButton({
+SEXTab:AddButton({
 	Name = "Hatlist For Hat hub, SuShix",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/Hatlist%20gui"))()
@@ -105,11 +123,43 @@ FETab:AddButton({
   	end    
 })
 
-infoTab:AddButton({
+local AdminTab = Window:MakeTab({
+	Name = "Admin hub",
+	Icon = "rbxassetid://965496596",
+	PremiumOnly = false
+})
+
+AdminTab:AddButton({
 	Name = "INF YE admin",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
       	print("Execute Done")
+  	end    
+})
+
+local SettingTab = Window:MakeTab({
+	Name = "Setting",
+	Icon = "rbxassetid://965496596",
+	PremiumOnly = false
+})
+
+SettingTab:AddButton({
+	Name = "Rejoin Server?",
+	Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/Rejoin%20server'))()
+      		print("REjoin Done!")
+  	end    
+})
+
+local Section = SettingTab:AddSection({
+	Name = "Really u close my script?"
+})
+
+SettingTab:AddButton({
+	Name = "Close Gui?",
+	Callback = function()
+    OrionLib:Destroy()
+      		print("button pressed")
   	end    
 })
 
@@ -263,32 +313,69 @@ setclipboard("-gh 1103003368 376527500 4246228452 3992084515 48474294 451220849 
 HatlistTab:AddButton({
 	Name = "NPC",
 	Callback = function()
+setclipboard("-gh 617605556 376527115 48474294 451220849 62724852 62234425 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
       		print("button pressed")
   	end    
 })
 
-local SettingTab = Window:MakeTab({
-	Name = "Setting",
-	Icon = "rbxassetid://965496596",
-	PremiumOnly = false
 })
 
-SettingTab:AddButton({
-	Name = "Rejoin Server?",
+HatlistTab:AddButton({
+	Name = "Strong Stand",
 	Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/lol1241414141/Script/refs/heads/main/Rejoin%20server'))()
-      		print("REjoin Done!")
+    setclipboard("-gh 6375710342 617605556 376527115 4246228452 3992084515 48474294 451220849 62724852 62234425 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
+      		print("button pressed")
   	end    
 })
 
-local Section = SettingTab:AddSection({
-	Name = "Really u close my script?"
 })
 
-SettingTab:AddButton({
-	Name = "Close Gui?",
+HatlistTab:AddButton({
+	Name = "Human Pet",
 	Callback = function()
-    OrionLib:Destroy()
+setclipboard("-gh 6276306861 4904148450 8337370 14815761 125377979 376527115 48474294 451220849 62234425 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
+      		print("button pressed")
+  	end    
+})
+
+})
+
+HatlistTab:AddButton({
+	Name = "Dog",
+	Callback = function()
+setclipboard("-gh 4684948729 5099484857 6102335003 1103003368 48474294 63690008 376527115 451220849 62724852 48474313")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+      		print("button pressed")
+  	end    
+})
+
+})
+
+HatlistTab:AddButton({
+	Name = "Human Pet",
+	Callback = function()
       		print("button pressed")
   	end    
 })
