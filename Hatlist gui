@@ -1,64 +1,178 @@
 local HatID = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = HatID.CreateLib("Nigga hatlist By grey noob ", "BloodTheme")
+local Window = HatID.CreateLib("Silly cat's hatlist Hub By grey noob", "BloodTheme")
 
 local Tab = Window:NewTab("Info")
-local Section = Tab:NewSection("Idk")
-local Section = Tab:NewSection("FUCK")
+
 local Section = Tab:NewSection("I made script by me")
-local Section = Tab:NewSection("v1.0")
-local Tab = Window:NewTab("Hat hub ID")
-local Section = Tab:NewSection("Hat hub script")
+
+local Section = Tab:NewSection("v1.5")
+
+local Tab = Window:NewTab("Hat hub")
+
+local Section = Tab:NewSection("Hat hub ID")
 Section:NewButton("Sex Doll", "Only Hat hub", function()
     setclipboard("-gh 4904137145 4246228452 4911305457 4822592866 3992084515 14815761 48474294 63690008 62234425 451220849")
+        wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
 Section:NewButton("plane", "Only Hat hub", function()
     setclipboard("-gh 4025460572 1532389 191101707 4332375148 4708069539")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob"; 
+        Duration = 5;
+    })
 end)
 Section:NewButton("Strong Stand", "Only Hat hub", function()
-    setclipboard("-gh 4025460572 1532389 191101707 4332375148 4708069539")
+    setclipboard("-gh 5269023723 4822592866 48474294 28171753 62234425 63690008 62724852 451220849 3992084515 4246228452")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
 Section:NewButton("PP", "Only Hat hub", function()
     setclipboard("-gh 17614451 4246228452 3992084515 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
 Section:NewButton("9/11", "Only Hat hub", function()
     setclipboard("-gh 4998547654 28171753 20372960 62234425 63690008 62724852 451220849")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
+
+
 Section:NewButton("9/11 Plane", "Only Hat hub", function()
     setclipboard("-gh 4690305028 4627469896 4623675984 4602619613 4315489767 4794315940 4461505493 4461584953")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
+
+
 Section:NewButton("Shidashian", "Only Hat hub", function()
     setclipboard("-gh 3806215779 5132802731 31151864 27345567 24826811 24826755")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
-Section:NewButton("PP", "Only Hat hub", function()
+
+Section:NewButton("PP (HAT Hub", "Only Hat hub", function()
     setclipboard("-gh 17614451 4246228452 3992084515 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
+
 local Tab = Window:NewTab("SushiX")
+
 local Section = Tab:NewSection("Hat ID")
+
 Section:NewButton("PP", "Only SushiX hat", function()
     setclipboard("-gh 3814474927 4246228452 3992084515 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("bang", "Sex doll", function()
     setclipboard("-gh 1103003368 376527500 4246228452 3992084515 48474294 451220849 376526888 62234425 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Npc", "None", function()
     setclipboard("-gh 617605556 376527115 48474294 451220849 62724852 62234425 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Strong Stand", " ", function()
     setclipboard("-gh 6375710342 617605556 376527115 4246228452 3992084515 48474294 451220849 62724852 62234425 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Human Pet", "Sex doll", function()
     setclipboard("-gh 6276306861 4904148450 8337370 14815761 125377979 376527115 48474294 451220849 62234425 63690008")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Dog", "Sex doll", function()
     setclipboard("-gh 4684948729 5099484857 6102335003 1103003368 48474294 63690008 376527115 451220849 62724852 48474313")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
 local Tab = Window:NewTab("special hat")
+
 local Section = Tab:NewSection("Hat ID")
-Section:NewButton("Bacon r63", "Hot ass", function()
+
+Section:NewButton("Bacon r63 (Shidashian)", "Hot ass", function()
     setclipboard("-gh 3806215779 5132802731 31151864 27345567 24826811 24826755 15388524841 16495408826 12659348931 13913452190 14124933511")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
-Section:NewButton("Neko", "Face, hair only hat hub", function()
+
+Section:NewButton("Neko (Shidashian)", "Face, hair only hat hub", function()
     setclipboard("-gh 13913452190 12659348931 15281425861 14124935972 16495408826 3806215779 5132802731 31151864 27345567 24826811 24826755 130182111863690 16451454810 6984544578")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
 end)
 
 local Tab = Window:NewTab("Script hub")
@@ -66,10 +180,29 @@ local Section = Tab:NewSection("XD")
 
 Section:NewButton("Hathub", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/A1iNPhBV"))()
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "Execute done";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
     print("Clicked")
 end)
 
 Section:NewButton("SushiX", "ButtonInfo", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X'),true))()
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "Execute done";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
     print("Clicked")
 end)
+
+wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "Made by Gray noob";
+        Text = ".gg/Xj7XeevB";
+        Duration = 5;
+    })
