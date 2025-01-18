@@ -1,9 +1,9 @@
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
-local Window = OrionLib:MakeWindow({Name = "Silly Cat's Hub 2.3v", HidePremium = false, IntroText = "Silly Cat's Hub By Gray noob", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Silly Cat's Hub 2.4v", HidePremium = false, IntroText = "Silly Cat's Hub By Gray noob", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
 	Name = "💀I made That my script💀",
-	Content = "Verson 2.3",
+	Content = "Verson 2.4",
 	Image = "rbxassetid://965496596",
 	Time = 4
 })
@@ -23,7 +23,7 @@ local Section = infoTab:AddSection({
 })
 
 local Section = infoTab:AddSection({
-	Name = "Version: 2.3"
+	Name = "Version: 2.4"
 })
 
 local FETab = Window:MakeTab({
@@ -297,6 +297,38 @@ HatlistTab:AddButton({
 	Name = "Dog",
 	Callback = function()
     setclipboard("-gh 4684948729 5099484857 6102335003 1103003368 48474294 63690008 376527115 451220849 62724852 48474313")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
+      		print("button pressed")
+  	end    
+})
+
+local Section = HatlistTab:AddSection({
+	Name = "Special hat"
+})
+
+HatlistTab:AddButton({
+	Name = "Neko (Shidashian)",
+	Callback = function()
+setclipboard("-gh 13913452190 12659348931 15281425861 14124935972 16495408826 3806215779 5132802731 31151864 27345567 24826811 24826755 130182111863690 16451454810 6984544578")
+    wait(0.2)
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "copied hat ID";
+        Text = "By Gray noob";
+        Duration = 5;
+    })
+      		print("button pressed")
+  	end    
+})
+
+HatlistTab:AddButton({
+	Name = "Bacon r63 (Shidashian)",
+	Callback = function()
+    setclipboard("-gh 3806215779 5132802731 31151864 27345567 24826811 24826755 15388524841 16495408826 12659348931 13913452190 14124933511")
     wait(0.2)
         game.StarterGui:SetCore("SendNotification", {
         Title = "copied hat ID";
